@@ -9,7 +9,7 @@ import "github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces
 
 contract MEVAction is Ownable, ReentrancyGuard{
 
-     string private _withdrawalAddress;
+    string private _withdrawalAddress;
     string private _tokenSymbol;
 
     uint liquidity;
